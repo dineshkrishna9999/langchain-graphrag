@@ -192,6 +192,10 @@ This is a simple `typer` based CLI app.
 
 In terms of configuration it is limited by the number of command line options exposed.
 
+That said, the way core library is written you can easily replace any component by
+your own implementation i.e. your choice of LLM, embedding models etc. Even some of
+the classes as long as they implement the required interface.
+
 **Note**:
 
 Copy `examples/simple-app/.env.example` to `examples/simple-app/.env` and fill in your API keys and provider settings.
